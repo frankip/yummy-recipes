@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+    <title>Recipes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/app.css"> </head>
+
 <body>
-    
+    <nav class="nav"> <a class="toggle-nav" href="#">&#9776;</a>
+        <div class="nav-mobile">
+            <ul class="left">
+                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fa fa-book"></i> Add New</a></li>
+            </ul>
+            <ul class="right">
+                <li> <a href=""><i class="fa fa-sign-out"></i>Sign Out</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="container">
+        <div class="heading">
+            <h2>Recipes</h2></div>
+        <div class="row small-up-1 medium-up-2 large-up-2">
+            <div class="column">
+                <div class="card-container">
+                    <div class="card u-clearfix">
+                        <div class="card-body"> <span class="card-author subtle">John Smith</span>
+                            <h2 class="card-title">Baked Penne Pasta</h2> <span class="card-description subtle">
+                           2 tbsp olive oil
+                            1 lb. ground beef, browned (from
+                            freezer)
+                            3 tsp garlic, minced
+                            3/4 cup spaghetti sauce
+                            3/4 cup brown gravy
+                            1/2 cup half and half
+                          <br>
+                          Cook beef, drain and rinse with hot water to remove excess fat. In a large fry pan, sauté garlic over low heat 1-2 minutes.
+                            Add all remaining ingredients except Mozzarella cheese and pasta. Simmer for 10 minutes. Add pasta and pour into a
+                            baking dish. Sprinkle Mozzarella cheese on top. Bake at 350°F for 25 minutes.
+                        </span>
+                            <div class="card-read"></div>
+                        </div>
+                        <div class="button-group"> <a class="success button">Edit</a> <a class=" alert button">Delete</a></div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card-container">
+                    <div class="card u-clearfix">
+                        <div class="card-body"> <span class="card-author subtle">John Smith</span>
+                            <h2 class="card-title">Green Bean Casserole</h2> <span class="card-description subtle">
+                          4 cans green beans
+1 1/2 cups French onions
+2 cups milk
+2 tsp ground pepper (or to your liking)
+2 cans cream of mushroom soup
+Mix green beans, milk, pepper, soup and 3/4 can of onions. Bake at 375°F for 35 minutes stirring
+frequently. Add the remainder of onions and bake 5 minutes.
+                       
+                        </span>
+                            <div class="card-read"></div>
+                        </div>
+                        <div class="button-group"> <a class="success button">Edit</a> <a class=" alert button">Delete</a></div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    java script scripts -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(document).foundation();
+        })
+    </script>
 </body>
+
 </html>
